@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #ffe96b;
+    color: rgb(107, 34, 0);
+    text-align: center;
+    padding: 2%;
+    font-family: Cursive;
+}
+
+main{
+    text-align: center;
+}
+
+#p1{
+    color: #ffe96b;;
+    background-color:  rgb(107, 34, 0);
+    text-align: center;
+    padding: 2%;
+    font-family: Cursive;
+}
+
+#info{
+    background-color: #fd711f;
+    color: #ffe96b;;
+    padding: 2%;
+    font-family: Georgia;
+}
+
+footer{
+    background-color: #ffe96b;
+    color: rgb(107, 34, 0);
+    text-align: center;
+    padding: 2%;
+    font-family: Arial;
+}
+
