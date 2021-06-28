@@ -36,3 +36,10 @@ footer{
     padding: 2%;
     font-family: Arial;
 }
+
+table,
+tr,
+th,
+td{
+    border: 1px solid ;
+}
