@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: #fd711f;
+    color: rgb(107, 34, 0);
+    text-align: center;
+    padding: 2%;
+    font-family: Cursive;
+}
+
+#img{
+    background-color: #ffe96b;
+}
+
+main{
+    text-align: center;
+}
+
+#p1{
+    color: #ffe96b;;
+    background-color:  rgb(107, 34, 0);
+    text-align: center;
+    padding: 2%;
+    font-family: Cursive;
+}
+
+#info{
+    background-color: #fd711f;
+    color: #ffe96b;
+    padding: 2%;
+    font-family: Georgia;
+}
+
+#salesbutton{
+    color:  rgb(107, 34, 0);
+    background-color: #ffe96b;
+    padding: 12px 24px;
+    margin-top: 16px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(107, 34, 0);
+    color: #ffe96b;
+    text-align: center;
+    padding: 2%;
+    font-family: Arial;
+}
+
+#locations{
+    background-color: #ffe96b;
+    color: rgb(107, 34, 0);
+    text-align: center;
+    padding: 1%;
+    height: 200px;
+}
+
+ul{
+    list-style-position: inside; 
+}
+
+#contact{
+    font-size: 24px;
+}
+
+#face{
+    color: #ffe96b;
+    font-size: 24px;
+   }
+   
+   #insta{
+    color: #ffe96b;
+    font-size: 24px;
+   }
+   
+   #snap{
+    color:#ffe96b;
+    font-size: 24px;
+   }
+   
+   #pin{
+    color:#ffe96b;
+    font-size: 24px;
+   }
+   
+   #twi{
+    color: #ffe96b;
+    font-size: 24px;
+   }
+   
+   #link{
+    color: #ffe96b;
+    font-size: 24px;
+   }
+   
+
+#citys{
+  float: left;
+  padding-left: 300px;;
+}
+
+#oh{
+  float: right;
+  padding-top: 30px;
+  padding-right: 400px;
+}
+
+
