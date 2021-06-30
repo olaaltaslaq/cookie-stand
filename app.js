@@ -135,8 +135,6 @@ paris.render();
 
 lima.render();
 
-createFooter();
-
 
 
 let myForm = document.getElementById('myForm');
