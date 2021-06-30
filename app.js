@@ -137,3 +137,23 @@ lima.render();
 
 createFooter();
 
+
+let myForm = document.getElementById('myForm');
+myForm.addEventListener('submit',addShop);
+function addShop(event) {
+  event.preventDefault();
+  let name = event.target.name.value;
+  let min = event.target.min.value;
+  let max = event.target.max.value;
+  let avg = event.target.avg.value;
+
+  let newShop = new CookieInfo(name, min, max, avg);
+
+  newShop.calcRandCustPerH();
+  newShop.calcAngCookiesPerH();
+  newShop.render();
+}
+
+
+createFooter();
+
