@@ -138,6 +138,7 @@ lima.render();
 createFooter();
 
 
+
 let myForm = document.getElementById('myForm');
 myForm.addEventListener('submit',addShop);
 function addShop(event) {
