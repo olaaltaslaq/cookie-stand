@@ -38,6 +38,7 @@ CookieInfo.prototype.calcAngCookiesPerH= function() {
   }
 };
 
+
 CookieInfo.prototype.render = function () {
   let trEl = document.createElement('tr');
   let tdEl = document.createElement('td');
@@ -151,5 +152,8 @@ function addShop(event) {
 
   tableEl.deleteTFoot();
   createFooter();
+
 }
+
+
 
