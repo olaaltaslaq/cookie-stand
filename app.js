@@ -126,15 +126,12 @@ lima.calcAngCookiesPerH();
 createTableHeader();
 
 seattle.render();
-
 tokyo.render();
-
 dubai.render();
-
 paris.render();
-
 lima.render();
 
+createFooter();
 
 
 let myForm = document.getElementById('myForm');
@@ -151,8 +148,8 @@ function addShop(event) {
   newShop.calcRandCustPerH();
   newShop.calcAngCookiesPerH();
   newShop.render();
+
+  tableEl.deleteTFoot();
+  createFooter();
 }
-
-
-createFooter();
 
