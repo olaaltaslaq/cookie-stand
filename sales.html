@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sales Informations</title>
     <style>
-        body{
-          background-color: #ffe96b;
+        body {
+            background-color: #ffe96b;
         }
 
         table {
@@ -66,13 +66,38 @@
         <h2></h2>
         <div id="salmonCookies">
         </div>
+
+        <form action="" id="myForm">
+            <fieldset>
+                
+                <legend>
+                    Salmon Cookies
+                </legend>
+
+                  <label for="name">Store Name:</label>
+                  <input type="text" id='name' name='name' placeholder="Store Name" > 
+
+                  <label for="min">Minimum Order:</label>
+                  <input type="number" id='min' name='min' placeholder="Minimum Order" > 
+
+                  <label for="max">Maximum Order:</label>
+                  <input type="number" id='max' name='max' placeholder="Maximum Order" > 
+
+                  <label for="avg">Average Sales:</label>
+                  <input type="number" id='avg' name='avg' placeholder="Average Sales" > 
+
+                  <input type="submit" value="SUBMIT"> 
+
+            </fieldset>
+        </form>
+        <div id="salmonCookies"></div>
+
         <div id="info">
             <button id="homebutton"> <a href="index.html">GO BACK TO HOME PAGE</a> </button>
         </div>
 
     </main>
     <footer>
-
     </footer>
 
     <script src="app.js"></script>
